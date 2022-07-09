@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE html>
+<html b:version='2' class='v2' expr:dir='data:blog.languageDirection' expr:lang='data:blog.locale' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'>
+<head>
+    <meta charset="UTF-8"></meta>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
+    <title>NAVBAR</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            background-color: aqua;
+            color: black;
+            margin: auto;
+            padding: 50px;
+        }
+
+        body {
+            font-family: sans-serif;
+            overflow-x: hidden;
+            color: aliceblue;
+        }
+
+        /*  Navbar  */
+
+        nav {
+            display: flex;
+            background-color: black;
+            justify-content: space-around;
+            height: 50px;
+            align-items: center;
+        }
+
+        nav ul {
+            display: flex;
+
+            list-style: none;
+            width: 40%;
+            justify-content: space-between;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-size: 0.8em;
+            color: aliceblue;
+        }
+
+        nav ul li a:hover {
+            color: aqua;
+        }
+
+        /* Hamburger Menu */
+
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            height: 20px;
+            justify-content: space-between;
+            position: relative;
+
+        }
+
+        .menu-toggle input {
+            position: absolute;
+            width: 40px;
+            height: 28px;
+            left: -5px;
+            top: -3px;
+            opacity: 0;
+            cursor: pointer;
+            z-index: 2;
+        }
+
+        .menu-toggle span {
+            display: block;
+            width: 28px;
+            height: 3px;
+            background-color: aliceblue;
+            border-radius: 3px;
+            transition: all 0.1s;
+        }
+
+        /* Hamburger Menu Animation */
+
+        .menu-toggle span:nth-child(2) {
+            transform-origin: 0 0;
+        }
+
+        .menu-toggle span:nth-child(4) {
+            transform-origin: 0 100%;
+        }
+
+        .menu-toggle input:checked~span:nth-child(2) {
+            background-color: rgb(252, 7, 19);
+            transform: rotate(45deg) translate(-1px, -1px);
+        }
+
+        .menu-toggle input:checked~span:nth-child(4) {
+            background-color: rgb(252, 7, 19);
+            transform: rotate(-45deg) translate(-1px, 0);
+        }
+
+        .menu-toggle input:checked~span:nth-child(3) {
+            opacity: 0;
+            transform: scale(0);
+        }
+
+        /* Responsive Breakpoint */
+
+        /* ukuran tablet */
+
+        @media screen and (max-width: 768px) {
+            nav ul {
+                width: 50%;
+            }
+        }
+
+        /* ukuran mobile */
+
+        @media screen and (max-width: 576px) {
+            .menu-toggle {
+                display: flex;
+            }
+
+            nav ul {
+                position: absolute;
+                right: 0;
+                flex-direction: column;
+                width: 80%;
+                padding-left: 40px;
+                padding-top: 230px;
+                top: 0;
+                height: 100vh;
+                background-color: rgb(175, 163, 163);
+                z-index: -1;
+                transform: translateX(100%);
+                transition: all 0.5s;
+            }
+
+            nav ul.slide {
+                transform: translateX(0);
+            }
+        }
+    </style>
+    <h1>My Template</h1>
+</head>
+
+<body>
+  <b:section>...</b:section>
+    <nav>
+        <div class="logo">
+            <h4>Navigasi</h4>
+        </div>
+        <ul>
+            <li><a href="">Home</a></li>
+            <li><a href="">Product</a></li>
+            <li><a href="">Service</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">About</a></li>
+        </ul>
+
+        <div class="menu-toggle">
+            <input type="checkbox" />
+            <span></span>
+            <span></span>
+            <span></span>
+
+        </div>
+    </nav>
+
+    <script>
+        const menuToggle = document.querySelector('.menu-toggle input');
+        const nav = document.querySelector('nav ul');
+
+        menuToggle.addEventListener('click', function () {
+            nav.classList.toggle('slide');
+        });
+
+
+
+    </script>
+</body>
+
+</html>
