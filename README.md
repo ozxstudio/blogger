@@ -1,2 +1,4 @@
-# blogger
-ada error tapi ndak nemu kesalahannya. https://imgur.com/OJQaMRD pesan errornya; There should be one and only one skin in the theme, and we found: &lt;b>0&lt;/b>
+membuat cms blogger rasa wordpress
++ kelebihan blogger dibanding wordpress karena blogger tidak membutuhkan webhosting 
++ mengedit tampilan blogger lebih sulit ketimabang wordpress yang punya banyak plugin
++ membuat cms baru blogger yang mempunyai fitur fitur wordpress.
