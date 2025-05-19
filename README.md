@@ -1,10 +1,11 @@
 # 📘 README.md Resmi: CMS Blogger Rasa WordPress
 
-# membuat cms blogger rasa wordpress
+# membuat blogger rasa website (landing sites) //
 + kelebihan blogger dibanding wordpress karena blogger tidak membutuhkan webhosting 
 + mengedit tampilan blogger lebih sulit ketimabang wordpress yang punya banyak plugin
 + membuat cms baru blogger yang mempunyai fitur fitur wordpress.
-+ 
++ custom domain tanpa hosting.
+  
 # # Blogger CMS – WordPress Features, Blogger Simplicity
 
 📦 Proyek open source untuk membangun sistem **CMS modular di atas Blogger**  
