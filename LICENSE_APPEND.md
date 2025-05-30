@@ -30,6 +30,11 @@ Kami menghargai transparansi dan menghimbau Anda untuk tidak:
 
 Template ini dibangun sepenuhnya dengan HTML, CSS, dan fitur Blogger. Tanpa backend, tanpa PHP, tanpa database SQL. Semua sistem bersifat statis dan dapat dimodifikasi sepenuhnya dari sisi klien.
 
-🧠 Prinsip TMFX
+# 🧠 Prinsip TMFX
 
 ## "Lu boleh pake. Lu boleh remix. Tapi tolong tetap hormat ke pembuat. Jangan hapus jejak — karena jejak adalah tanda kita tidak pernah sendiri."
+
+## Mari sama sama belajar Etika dan Estetika berkesenian [ngoding adalah bagian expressi dari berkesenian ;; bukan kerja mesin] ::
+- mengutamakan kejujuran teknik dan kejujuran bahan [ = jika kerja dalam seni rupa ]
+
+- ---
