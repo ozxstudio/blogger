@@ -37,4 +37,6 @@ Template ini dibangun sepenuhnya dengan HTML, CSS, dan fitur Blogger. Tanpa back
 ## Mari sama sama belajar Etika dan Estetika berkesenian [ngoding adalah bagian expressi dari berkesenian ;; bukan kerja mesin] ::
 - mengutamakan kejujuran teknik dan kejujuran bahan [ = jika kerja dalam seni rupa ]
 
-- ---
+# Terima kasih sudah menghargai karya dengan etika, bukan sekadar estetika.
+
+- © 2025 OZX Studio / TMFX Open Digital License
