@@ -1,8 +1,8 @@
 # 🛡️ TMFX LICENSE APPENDIX
 
-# Built with Blogger. 
-# Proudly Honest.No WordPress Inside.
-# 100% Frontend.Ethically Designed by OZX Studio
+## Built with Blogger. 
+## Proudly Honest.No WordPress Inside.
+## 100% Frontend.Ethically Designed by OZX Studio
 
 # 📜 Hak Penggunaan
 
