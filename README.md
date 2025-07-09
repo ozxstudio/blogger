@@ -49,6 +49,7 @@ Tanpa hosting. Tanpa plugin. Tanpa ribet.
 
 - 🔧 Template XML: [Lihat di Releases](https://github.com/ozxstudio/blogger/releases)
 - 🌐 Demo: [https://www.tmfx.my.id](https://www.tmfx.my.id)
+- 🌐 Demo: [https://www.weber.web.id](https://www.weber.web.id)
 
 ---
 
